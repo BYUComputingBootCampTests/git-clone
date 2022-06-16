@@ -34,7 +34,7 @@ class SecretDoor(Door):
             try:
                 trial_key = self.keylist[int(input())]
                 self.unlock(trial_key)
-                if not self.locked:
+                if self.locked:
                     key_guessed = True
                 else:
                     print("The key jostles in the lock, but it fails to open the door.")

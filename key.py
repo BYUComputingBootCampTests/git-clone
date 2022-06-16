@@ -9,5 +9,5 @@ class Key:
         return self.color == other.color and self.teeth == other.teeth
 
     def __str__(self):
-        outStr = "A " + self.color + " " + str(self.teeth) + "-pronged key"
+        outStr = "A " + self.color + " " + str(self.teeth) + "-toothed key"
         return outStr
