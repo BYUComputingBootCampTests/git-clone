@@ -1,0 +1,1 @@
+This repository exists solely to support the gitTest repository. Change none of its files unless you know exactly what you are doing!
